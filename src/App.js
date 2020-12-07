@@ -53,6 +53,7 @@ cellStyle: params => params.value === "High" ? {color:'red'}:params.value === "M
       rowSelection="single"
       columnDefs={columns}
       rowData={todos}
+      animateRows="true"
       >
     </AgGridReact>
     </div>
